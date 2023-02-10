@@ -1,0 +1,166 @@
+body {
+    background-color: lightgrey;
+    width: 100%; 
+    margin-right: -10;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+h1 {
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    color: black;
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Photo1 */ 
+.photo1 {
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: none red 2px;
+    margin-top: 60px;
+}
+
+
+.photo1 > .right-element, .left-element, img, p {
+    border: 1px none black;
+    padding: 10px;
+} 
+
+.elements {
+    display: flex;
+}
+
+.left-element {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-left: 8px;
+  text-align: left !important;
+  font-weight: bold;
+}
+
+.right-element {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 16px;
+    text-align: right !important;
+    font-weight: lighter;
+    margin-top: 10px;
+  }
+
+p {
+    text-align: left;
+    margin-bottom: -5px;
+}
+
+/*Photo2 */ 
+.photo2 {
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: none red 2px;
+    margin-top: 60px;
+}
+
+
+.photo2 > .right-element, .left-element, img, p {
+    border: 1px none black;
+    padding: 10px;
+} 
+
+.elements {
+    display: flex;
+}
+
+.left-element {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-left: 8px;
+  text-align: left !important;
+  font-weight: bold;
+}
+
+.right-element {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 16px;
+    text-align: right !important;
+    font-weight: lighter;
+    margin-top: 10px;
+  }
+
+p {
+    text-align: left;
+    margin-bottom: -5px;
+}
+
+/*Photo3 */ 
+.photo3 {
+    font-family: 'Lato', sans-serif;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: none red 2px;
+    margin-top: 60px;
+}
+
+
+.photo3 > .right-element, .left-element, img, p {
+    border: 1px none black;
+    padding: 10px;
+} 
+
+.elements {
+    display: flex;
+}
+
+.left-element {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-left: 8px;
+  text-align: left !important;
+  font-weight: bold;
+}
+
+.right-element {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 16px;
+    text-align: right !important;
+    font-weight: lighter;
+    margin-top: 10px;
+  }
+
+p {
+    text-align: left;
+    margin-bottom: -5px;
+}

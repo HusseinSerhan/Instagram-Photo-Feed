@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("PolarisBaseGraphQLEventHandler",[],(function(a,b,c,d,e,f){"use strict";var g="1/graphqlsubscriptions/",h=Object.freeze({PRESENCE:"Presence",BD_CHALLENGE:"BdChallenge",WAVE:"Wave",PINNED_QUESTION:"PinnedQuestion",QUESTION_STATUS:"QuestionStatus",NONE:""});a=function(){function a(){}var b=a.prototype;b.processEventMessage=function(a){return};b.getSubTopic=function(){return null};b.getGraphQLSubsciptionPrefix=function(){return g};b.getType=function(){return h.NONE};return a}();f.GRAPH_QL_EVENT_TYPES=h;f.BaseGraphQLEventHandler=a}),66);
