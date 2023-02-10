@@ -16,7 +16,7 @@ You will need a basic understanding of HTML and CSS to be able to fully utilize 
 
 ```bash
 $ git clone https://github.com/HusseinSerhan/instagram-feed-clone.git
-
+```
 
 2. Open the project in your preferred text editor.
 
