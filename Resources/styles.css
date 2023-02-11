@@ -30,7 +30,7 @@ h1 {
 /*Photo1 */ 
 .photo1 {
     font-family: 'Lato', sans-serif;
-    width: 50%;
+    width: 30%;
     height: 50%;
     background-color: white;
     padding: 20px;
@@ -76,7 +76,7 @@ p {
 /*Photo2 */ 
 .photo2 {
     font-family: 'Lato', sans-serif;
-    width: 50%;
+    width: 30%;
     height: 50%;
     background-color: white;
     padding: 20px;
@@ -122,7 +122,7 @@ p {
 /*Photo3 */ 
 .photo3 {
     font-family: 'Lato', sans-serif;
-    width: 50%;
+    width: 30%;
     height: 50%;
     background-color: white;
     padding: 20px;
