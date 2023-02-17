@@ -13,7 +13,7 @@ body {
 img {
     max-width: 100%;
     height: auto;
-    margin-left: 8px !important;
+    margin-left: 0 !important;
     border: 3px solid red !important;
   }
 
