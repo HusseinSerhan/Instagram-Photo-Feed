@@ -68,7 +68,7 @@ h1 {
     display: inline-block;
     vertical-align: top;
     width: 30%;
-    margin-right: 16px;
+    margin-right: 0;
     text-align: right !important;
     font-weight: lighter;
     margin-top: 10px;
