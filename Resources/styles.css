@@ -15,6 +15,7 @@ img {
     height: auto;
     margin-left: 0 !important;
     border: 3px solid red !important;
+    object-fit: contain;
   }
 
 
