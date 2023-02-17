@@ -45,7 +45,10 @@ h1 {
     text-align: center;
     margin-top: 60px;
     max-width: 100%;
-    height: 400px; /* added */
+    height: 400px;
+    display: flex; /* added */
+    flex-direction: column; /* added */
+    align-items: flex-start; /* added */
 }
 
 
