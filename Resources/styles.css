@@ -36,6 +36,16 @@ h1 {
     font-family: 'Lato', sans-serif;
 }
 
+.photo1, .photo2, .photo3 {
+    font-family: 'Lato', sans-serif;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    margin-top: 60px;
+    max-width: 100%;
+  }
+
+
 /*Photo1 */ 
 .photo1 {
     font-family: 'Lato', sans-serif;
