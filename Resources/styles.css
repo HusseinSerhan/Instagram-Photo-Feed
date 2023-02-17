@@ -10,16 +10,6 @@ body {
     flex-direction: column;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    margin-left: 0 !important;
-    border: 3px solid red !important;
-    object-fit: contain;
-    width: 100%;
-  }
-
-
 h1 {
     background-color: white;
     text-align: center;
@@ -37,31 +27,41 @@ h1 {
     font-family: 'Lato', sans-serif;
 }
 
-.photo1, .photo2, .photo3 {
+/*Photo1 */ 
+.photo1 {
     font-family: 'Lato', sans-serif;
     width: 30%;
-    padding: 20px;
+    height: 50%;
     background-color: white;
+    padding: 20px;
     text-align: center;
+    border: none red 2px;
     margin-top: 60px;
-    max-width: 100%;
-    height: 400px;
-    display: flex; /* added */
-    flex-direction: column; /* added */
-    align-items: flex-start; /* added */
 }
+
+#image-1 {
+    padding: 0px;
+    width: 90%;
+    margin: auto;
+    display:block;
+}
+
+.photo1 > .right-element, .left-element, p {
+    border: 1px none black;
+    padding: 10px;
+} 
 
 .elements {
     display: flex;
 }
 
 .left-element {
-    display: inline-block;
-    vertical-align: top;
-    width: 70%;
-    margin-left: 8px;
-    text-align: left !important;
-    font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-left: 6px;
+  text-align: left !important;
+  font-weight: bold;
 }
 
 .right-element {
@@ -72,34 +72,113 @@ h1 {
     text-align: right !important;
     font-weight: lighter;
     margin-top: 10px;
-}
+  }
 
 p {
     text-align: left;
     margin-bottom: -5px;
 }
 
-
-
-/*Photo1 */ 
-
-.photo1 > .right-element, .left-element, p {
-    border: 1px none black;
-    padding: 10px;
-} 
-
-
 /*Photo2 */ 
+.photo2 {
+    font-family: 'Lato', sans-serif;
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: none red 2px;
+    margin-top: 60px;
+}
 
-.photo2 > .right-element, .left-element, p {
+#image-2 {
+    padding: 0px;
+    width: 90%;
+    margin: auto;
+    display:block;
+}
+
+.photo2 > .right-element, .left-element, img, p {
     border: 1px none black;
     padding: 10px;
 } 
 
+.elements {
+    display: flex;
+}
+
+.left-element {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-left: 8px;
+  text-align: left !important;
+  font-weight: bold;
+}
+
+.right-element {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 16px;
+    text-align: right !important;
+    font-weight: lighter;
+    margin-top: 10px;
+  }
+
+p {
+    text-align: left;
+    margin-bottom: -5px;
+}
 
 /*Photo3 */ 
+.photo3 {
+    font-family: 'Lato', sans-serif;
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: none red 2px;
+    margin-top: 60px;
+}
 
-.photo3 > .right-element, .left-element, p {
+#image-3 {
+    padding: 0px;
+    width: 90%;
+    margin: auto;
+    display:block;
+}
+
+.photo3 > .right-element, .left-element, img, p {
     border: 1px none black;
     padding: 10px;
 } 
+
+.elements {
+    display: flex;
+}
+
+.left-element {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  margin-left: 8px;
+  text-align: left !important;
+  font-weight: bold;
+}
+
+.right-element {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 16px;
+    text-align: right !important;
+    font-weight: lighter;
+    margin-top: 10px;
+  }
+
+p {
+    text-align: left;
+    margin-bottom: -5px;
+}
