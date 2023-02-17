@@ -94,7 +94,7 @@ p {
 }
 
 
-.photo2 > .right-element, .left-element, img, p {
+.photo2 > .right-element, .left-element, p {
     border: 1px none black;
     padding: 10px;
 } 
@@ -140,7 +140,7 @@ p {
 }
 
 
-.photo3 > .right-element, .left-element, img, p {
+.photo3 > .right-element, .left-element, p {
     border: 1px none black;
     padding: 10px;
 } 
