@@ -47,14 +47,14 @@ h1 {
 
 
 /*Photo1 */ 
-.photo1 {
+/* .photo1 {
     font-family: 'Lato', sans-serif;
     width: 30%;
     height: 50%;
     background-color: white;
     text-align: center;
     margin-top: 60px;
-}
+} */
 
 
 .photo1 > .right-element, .left-element, p {
@@ -91,14 +91,14 @@ p {
 }
 
 /*Photo2 */ 
-.photo2 {
+/* .photo2 {
     font-family: 'Lato', sans-serif;
     width: 30%;
     height: 50%;
     background-color: white;
     text-align: center;
     margin-top: 60px;
-}
+} */
 
 
 .photo2 > .right-element, .left-element, p {
@@ -135,7 +135,7 @@ p {
 }
 
 /*Photo3 */ 
-.photo3 {
+/* .photo3 {
     font-family: 'Lato', sans-serif;
     width: 30%;
     height: 50%;
@@ -144,7 +144,7 @@ p {
     text-align: center;
     border: none red 2px;
     margin-top: 60px;
-}
+} */
 
 
 .photo3 > .right-element, .left-element, p {
